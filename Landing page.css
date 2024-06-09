@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida sans',Arial,sans-serif;
+    box-sizing: border-box;
+}
+.header
+{
+    width: 100%;
+    background-color: rgb(107, 187, 199);
+    display: flex;
+    height: 70px;
+    padding: 0px 10%;
+   justify-content: space-between;
+}
+.logo
+{
+    width: 10%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+.nav
+{ 
+    width: 30%;
+    height:70px;
+}
+.nav-links
+{
+    height: 70px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
+.banner
+{
+    width: 100%;
+height: 700px;
+background-color:rgb(235, 168, 67) ;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 30px;
+display: flex;
+align-items: center;
+}
+
+.details
+{
+    width: 60%;
+    padding: 20px;
+    font-family:"Montserrat", sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+.t1
+{
+    font-size: 60px;
+    font-style: bold;
+    color: rgb(9, 4, 0);
+}
+
+.t2
+{
+    
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(64, 12, 194);
+}
+
+.desc
+{  
+    font-size: 20px;
+}
+
+.cta
+{
+    padding: 15px 40px;
+    font-size: 20px;
+    margin-top: 35px;
+    background-color: palevioletred;
+    color: white;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.cta:hover
+{
+    background-color: transparent;
+    color: palevioletred;
+}
+
+.person
+{
+
+    background-color: #7b7474;
+    border-radius: 30px;
+
+}
+
+.person-img
+{
+    height: 400px;
+}
+.services
+{
+    width: 100%;
+    padding: 30px 10%;
+   background-color: rgb(107, 187, 199);
+}
+
+.section-title
+{
+    font-family:"Montserrat", sans-serif; 
+    font-size: 50px;
+    font-weight: 200;
+}
+.section-child
+{
+    width: 100%;
+    padding: 30px 0px;
+    margin: 30px;
+    display: flex;
+    column-gap: 3%;
+}
+
+.service
+{
+    width:30%;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family:"Montserrat", sans-serif; 
+    row-gap: 15px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+}
+
+.icon
+{
+    padding: 50px;
+    font-size: 20px;
+    align-self: center;
+
+}
+.service-txt
+{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service-btn
+{
+    padding: 10px 25px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 10px ;
+}
+.achievements
+{
+    padding: 30px 10%;
+    background-color:rgb(242, 235, 235) ;
+    font-family:"Montserrat", sans-serif; 
+}
+
+.achievement
+{
+    width: 18%;
+    padding: 50px;
+    background-color: rgb(202, 172, 146);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.achievements-child
+{
+    column-gap: 2.5%;
+}
+
+.number
+{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tag
+{
+    font-size: 16px;
+}
+.quote
+{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url('https://www.shutterstock.com/image-photo/young-woman-working-on-computer-600nw-1711024264.jpg')
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0,0, .3);
+    display:flex;
+    align-items: center;
+}
+ .footer
+ {
+    width: 100%;
+    padding: 30px 10%;
+    background-color: rgb(84, 78, 78);
+    font-family:"Montserrat", sans-serif; 
+    color: white;
+ }
+
+
+ .footer-child
+ {
+    width:22%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+ }
+
+ .footer-list
+ {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+   
+ }
+
+ .map
+ {
+    width: 46%;
+    padding: 0;
+ }
