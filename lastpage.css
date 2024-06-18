@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(230, 238, 113);
+    height: 600px;
+    width: 1500px;
+}
+footer{
+    padding-left: 400px;
+    padding-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    color: rgb(9, 97, 68);
+}
+footer p{
+    height: 100px;
+    width: 100px;
+}
+p{
+    font-size: 25px;
+}

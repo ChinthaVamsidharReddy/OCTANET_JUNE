@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(12, 13, 13);
+    border:border-box ;
+}
+body{
+    background-color: rgb(175, 60, 60);
+    background-size:cover;
+}
+.title{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+} 
+a{
+    text-decoration: none;
+}
+.nav{
+    margin-top: -20px;
+    margin-left: 1200px;
+    display: flex;
+    gap:14px;
+    list-style: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    font-size: 20px;
+    padding-right: 10px;
+    color: rgb(0, 6, 11);
+}
+nav{
+    height: 40px;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 14px;
+}
+.main{
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+}
+.main img{
+    padding-top: -40px;
+    display: block;
+     margin: auto; 
+    height: 100%;
+    padding-left: 240px;
+    padding-right: 160px;
+
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    margin: auto;
+}
+.lable{
+    width: 500px;
+    height: 800px;
+}
+
+#to-do-form{
+    cursor: url("https://img.freepik.com/free-photo/modern-artist-concept-with-notebook-brush_23-2148002200.jpg?size=626&ext=jpg&ga=GA1.1.257984760.1717946598&semt=ais_user")6 19,auto;
+    display: flex;
+    /* color: aqua; */
+    padding-left: 500px;
+    margin-top: 10px;
+    padding-left: 400px;
+}
+#task-input{
+    cursor: inherit;
+    height: 40px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px;
+    background-color: rgb(250, 251, 253);
+}
+.to-write:has(.write-value:checked){
+    color: rgb(112, 15, 15);
+    background-color: rgb(124, 124, 149);
+    text-decoration: line-through 1.5px;
+}
+.final{
+   margin-top: 800px;
+   padding-left: 100;
+}
+footer{
+    font-size: 75px;
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 
+    
+}
+button{
+    height: 50px;
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+ }
+ .text{
+    margin-left: 50px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: bisque;
+    color: black;
+ }
+ .next{
+    margin-left: 1200px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: bisque;
+    color: black;
+ }
+ #task-list{
+    /* background-color: aqua;
+    font-size: 25px;*/
+    padding-left: 500px; 
+    height: 40px;
+    width: 500px;
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px;
+    background-color: rgba(152, 10, 217, 0);
+ }
+ #task-list-1{
+    margin-top: 10px;
+ }
+ .complete-btn {
+    margin-left: 400px;
+    margin-top: 50px;
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.complete-btn:hover {
+    background: #048520;
+}
+
+.delete-btn {
+    background: #910513;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #010d10;
+    font-size: 20px;
+}
+li{
+    font-size: 25px;
+}
+
